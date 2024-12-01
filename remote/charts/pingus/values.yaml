@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: olegdayo/pingus
   pullPolicy: IfNotPresent
-  tag: 1259a2a123faad7c6485a9fa7ee475a35b0f269d
+  tag: 7e9ca73eb0898971be8413a7f77dda6ec86ec55d
 
 imagePullSecrets: []
 
