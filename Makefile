@@ -8,8 +8,8 @@ decompose:
 
 .PHONY: composed
 compose:
-	docker compose -f ./local/docker-compose.yaml --env-file .env up -d
+	docker compose -f ./local/deprecated/docker-compose.yaml --env-file .env up -d
 
 .PHONY: decomposed
 decompose:
-	docker compose -f ./local/docker-compose.yaml down
+	docker compose -f ./local/deprecated/docker-compose.yaml down
