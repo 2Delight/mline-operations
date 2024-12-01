@@ -1,0 +1,7 @@
+services:
+  gateway:
+    image: olegdayo/gateway:${TAG}
+    hostname: allergen
+    networks:
+      - internal
+      - telemetry
