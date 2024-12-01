@@ -9,7 +9,7 @@ services:
   integrator:
     image: olegdayo/integrator:${TAG}
     ports:
-      - '8081:8082'
+      - '8081:8080'
 
   validator:
     image: olegdayo/validator:${TAG}
