@@ -22,7 +22,7 @@ services:
     ports:
       - '8082:8080'
 
-  wev-app:
+  web-app:
     image: olegdayo/web-app:${TAG}
     ports:
       - '3000:3000'
