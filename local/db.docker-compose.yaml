@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  gateway-db:
+    image: postgres:15.1
+    hostname: gateway-db
+    environment:
+      POSTGRES_DB: specifications
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - gateway-data:/var/lib/postgresql/data
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U user -d specifications" ]
+      interval: 5s
+      timeout: 5s
+      retries: 100
+      start_period: 10s
+
+volumes:
+  gateway-data:
