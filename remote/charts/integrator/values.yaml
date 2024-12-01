@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: olegdayo/integrator
   pullPolicy: IfNotPresent
-  tag: 7e9ca73eb0898971be8413a7f77dda6ec86ec55d
+  tag: 0d5189cfe01eb6794787aa868c9a05232e2901e0
 
 imagePullSecrets: []
 
