@@ -3,7 +3,6 @@ replicaCount: 1
 image:
   repository: olegdayo/pingus
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: d2aa006af92ace696f4dde40194b250f4075d3f6
 
 imagePullSecrets: []
