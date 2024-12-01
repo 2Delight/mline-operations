@@ -29,7 +29,7 @@ service:
   port: 8080
 
 ingress:
-  enabled: true
+  enabled: false
   className: ""
   annotations: {}
   hosts:
@@ -48,11 +48,11 @@ resources:
 
 livenessProbe:
   httpGet:
-    path: /ping
+    path: /
     port: http
 readinessProbe:
   httpGet:
-    path: /ping
+    path: /
     port: http
 
 autoscaling:
