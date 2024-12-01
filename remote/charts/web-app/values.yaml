@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: olegdayo/web-app
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: 7e9ca73eb0898971be8413a7f77dda6ec86ec55d
 
 imagePullSecrets: []
 
