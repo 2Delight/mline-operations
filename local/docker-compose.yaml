@@ -1,7 +1,17 @@
+version: '3'
+
 services:
   gateway:
     image: olegdayo/gateway:${TAG}
-    hostname: allergen
-    networks:
-      - internal
-      - telemetry
+    ports:
+      - '8080:8080'
+
+  integrator:
+    image: olegdayo/integrator:${TAG}
+    ports:
+      - '8081:8082'
+
+  validator:
+    image: olegdayo/validator:${TAG}
+    ports:
+      - '8082:8080'
