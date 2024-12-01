@@ -1,6 +1,6 @@
 apiVersion: v2
-name: pingus
-description: A Helm chart for Pingus service
+name: web-app
+description: A Helm chart for Kubernetes
 
 type: application
 

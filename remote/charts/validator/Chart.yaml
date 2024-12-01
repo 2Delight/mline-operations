@@ -1,6 +1,6 @@
 apiVersion: v2
-name: pingus
-description: A Helm chart for Pingus service
+name: validator
+description: A Helm chart for Validator service
 
 type: application
 
