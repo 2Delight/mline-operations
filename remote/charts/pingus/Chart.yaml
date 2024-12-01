@@ -1,6 +1,6 @@
 apiVersion: v2
-name: mline
-description: A Helm chart for Kubernetes
+name: pingus
+description: A Helm chart for Pingus service
 
 # A chart can be either an 'application' or a 'library' chart.
 #
