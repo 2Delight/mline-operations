@@ -39,3 +39,12 @@ spec:
                 name: validator
                 port:
                   number: 8080
+    - http:
+        paths:
+          - path: /sse-project/integrator
+            pathType: Prefix
+            backend:
+              service:
+                name: integrator
+                port:
+                  number: 8080
