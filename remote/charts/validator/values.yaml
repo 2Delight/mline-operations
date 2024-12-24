@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: olegdayo/validator
   pullPolicy: IfNotPresent
-  tag: e29508db28d5f6584aa08bd0aff6c513131d1aa8
+  tag: fa5c941c1046541af7cef9041188f72b2e43ed8d
 
 imagePullSecrets: []
 
