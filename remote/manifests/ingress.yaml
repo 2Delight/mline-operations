@@ -57,4 +57,4 @@ spec:
               service:
                 name: web-app
                 port:
-                  number: 80
+                  number: 8080
