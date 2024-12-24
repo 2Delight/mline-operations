@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: olegdayo/gateway
   pullPolicy: IfNotPresent
-  tag: 9e0b183e21a21daa0a30c4fbff4ec58bcddffe5b
+  tag: b15b0e4e26a97889f4b65d928af77938bb4f5c82
 
 imagePullSecrets: []
 
