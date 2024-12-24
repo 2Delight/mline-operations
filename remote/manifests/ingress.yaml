@@ -48,3 +48,13 @@ spec:
                 name: integrator
                 port:
                   number: 8080
+
+    - http:
+        paths:
+          - path: /sse-project/web-app
+            pathType: Prefix
+            backend:
+              service:
+                name: web-app
+                port:
+                  number: 80
